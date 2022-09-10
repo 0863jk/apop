@@ -1,0 +1,23 @@
+@charset "EUC-KR";
+.card {
+	width: 400px;
+	height: 450px;
+	padding-top: 10px;
+	box-shadow: 0 0.25rem 1rem 0 rgba(0, 0, 0, 0.125);
+	display: flex;
+	justify-content: center;
+}
+
+.profile-img img {
+	border-radius: 50%;
+}
+
+.name {
+	font-size: 22px;
+}
+.task-item {
+	padding: 0 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

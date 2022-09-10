@@ -1,0 +1,32 @@
+@charset "EUC-KR";
+
+.board{
+	width: 280px;
+	height: auto;
+	background: #eeeeee;
+	border-radius : 7px;
+
+}
+.board-header{
+	width: inherit;
+	height : 40px;
+	color: black;
+	border-radius :7px 7px 0px 0px ;
+	padding : 10px;
+	padding-left : 15px;
+	font-weight: bold;
+	font-size: 22px;
+}
+.board-body{
+	max-height : 550px;
+	top : 50px;
+	overflow: auto;
+}
+.board-item{
+	flex-basis :60px;
+	width: 90%;
+	background: white;
+	border-radius : 3px;
+	padding : 10px;
+	box-shadow: 1px 1px gray;
+}
